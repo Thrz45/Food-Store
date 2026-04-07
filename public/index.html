@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Store</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="design.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+
+    <!-- nav section start -->
+
+    <nav class="2xl:container mx-auto">
+
+        <div class="w-[80%] mx-auto flex items-center py-3 justify-between">
+
+            <div>
+                <img class="h-[80px]"
+                    src="https://ik.imagekit.io/zpcyxfciu/Food%20Store/food-munch-img.png?updatedAt=1773470465271"
+                    alt="logo">
+            </div>
+
+            <ul class="lg:flex gap-5 hidden">
+                <li class="font-[Poppins] text-slate-700 cursor-pointer">Why Choose Us?</li>
+                <li class="font-[Poppins] text-slate-700 cursor-pointer">Explore Menu</li>
+                <li class="font-[Poppins] text-slate-700 cursor-pointer">Delivery & Payment</li>
+                <li class="font-[Poppins] text-slate-700 cursor-pointer">Follow Us</li>
+            </ul>
+
+            <!-- menu div -->
+
+            <div class="lg:hidden block">
+                <i class="fa-solid fa-bars text-2xl"></i>
+            </div>
+
+            <!-- menu div -->
+        </div>
+    </nav>
+
+    <!-- nav section end -->
+
+    <!-- header section start -->
+
+    <section>
+        <div class="2xl:container mx-auto head-bg">
+
+            <div class="w-[80%] mx-auto flex flex-col justify-center items-center h-full gap-5">
+
+                <h1 class="font-[Poppins] text-white text-[40px]">Get Delicious Food Anytime</h1>
+                <h3 class="font-[Poppins] text-white text-[22px]">Eat Smart & Healthy</h3>
+                <div class="flex gap-2">
+                    <button class="bg-[#C6A900] cursor-pointer text-white rounded-lg px-6 py-3 font-[Poppins]">View
+                        Menu</button>
+                    <button
+                        class="border border-[#C6A900] cursor-pointer text-[#C6A900] rounded-lg px-6 py-3 font-[Poppins]">Order
+                        Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- header section end -->
+
+    <!-- Why Choose Us? -->
+
+    <section class="py-10">
+        <div class="2xl:container mx-auto p-5">
+
+            <div class="w-[80%] mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+
+                <div class="bg-white border-none p-6 rounded-lg shadow-md flex flex-col items-center">
+                    <img src="https://ik.imagekit.io/zpcyxfciu/Food%20Store/food-serve.png?updatedAt=1773470682928"
+                        alt="cooking_food">
+                    <h1 class="font-[Poppins] font-[500px]
+                leading-[27px] text-[20px] py-2">Food Service</h1>
+                    <p class="font-[Poppins] text-slate-400 text-base font-semibold leading-[26px] text-center">
+                        Experience fine dining at the comfort of your home. All our orders are carefully packed and
+                        arranged to give you the nothing less than perfect.</p>
+
+                    <div class="flex flex-wrap gap-5 justify-center mt-3">
+                        <button
+                            class="bg-sky-400 rounded-lg px-6 py-2 text-white text-base sm:text-lg cursor-pointer">Submit</button>
+                        <button
+                            class="border border-red-700 px-6 py-2 rounded-lg text-base sm:text-lg cursor-pointer">Cancel</button>
+                    </div>
+
+                </div>
+
+                <div class="bg-white border-none p-4 rounded-lg shadow-md flex flex-col items-center">
+                    <img src="https://ik.imagekit.io/zpcyxfciu/Food%20Store/fruits-img.png?updatedAt=1773470746584"
+                        alt="cooking_food">
+                    <h1 class="font-[Poppins] font-[500px]
+                leading-[27px] text-[20px] py-2">Fresh Food</h1>
+                    <p class="font-[Poppins] text-slate-400 text-base font-semibold leading-[26px] text-center">The
+                        Fresh Food group provides fresh-cut fruits and vegetables directly picked from our partner farms
+                        and farm houses so that you always get them tree to plate.</p>
+
+                    <div class="flex flex-wrap gap-5 justify-center mt-3">
+                        <button
+                            class="bg-sky-400 rounded-lg px-6 py-2 text-white text-base sm:text-lg cursor-pointer">Submit</button>
+                        <button
+                            class="border border-red-700 px-6 py-2 rounded-lg text-base sm:text-lg cursor-pointer">Cancel</button>
+                    </div>
+
+                </div>
+
+
+                <div class="bg-white border-none p-4 rounded-lg shadow-md flex flex-col items-center">
+                    <img src="https://ik.imagekit.io/zpcyxfciu/Food%20Store/offers-img.png?updatedAt=1773470709850"
+                        alt="cooking_food">
+                    <h1 class="font-[Poppins] font-[500px] leading-[27px] text-[20px] py-2">Best Offers</h1>
+                    <p class="font-[Poppins] text-slate-400 text-base font-semibold leading-[26px] text-center">Food
+                        Coupons & Offers upto 50% OFF and Exclusive Promo Codes on All Online Food Orders.</p>
+
+                    <div class="flex flex-wrap gap-5 justify-center mt-3">
+                        <button
+                            class="bg-sky-400 rounded-lg px-6 py-2 text-white text-base sm:text-lg cursor-pointer">Submit</button>
+                        <button
+                            class="border border-red-700 px-6 py-2 rounded-lg text-base sm:text-lg cursor-pointer">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us? End -->
+
+    <!-- Explore Menu -->
+
+    <section class="py-10">
+        <div class="2xl:container mx-auto">
+
+            <div class="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+
+                <div class="bg-white shadow-lg p-5 rounded-[16px] space-y-2">
+                    <div>
+                        <img class="rounded-[16px]"
+                            src="https://ik.imagekit.io/zpcyxfciu/Food%20Store/em-ginger-fried-img.png?updatedAt=1773470827169"
+                            alt="Food">
+                    </div>
+                    <h1 class="font-[Poppins] text-lg font-medium leading-[22px] text-[#323f4b] mt-4">Non-Veg Starters
+                    </h1>
+                    <p class="text-[#FBCE07] hover:text-[#2956B3] hover:underline">View All
+                        <i class="fa-solid fa-arrow-right flex items-center mt-2 gap-2"></i>
+                    </p>
+                </div>
+
+                <div class="bg-white shadow-lg p-5 rounded-[16px] space-y-2">
+                    <div>
+                        <img class="rounded-[16px]"
+                            src="https://ik.imagekit.io/zpcyxfciu/Food%20Store/em-veg-starters-img.png?updatedAt=1773470886431"
+                            alt="Food">
+                    </div>
+                    <h1 class="font-[Poppins] text-lg font-medium leading-[22px] text-[#323f4b] mt-4">Non-Veg Starters
+                    </h1>
+                    <p class="text-[#FBCE07] hover:text-[#2956B3] hover:underline">View All
+                        <i class="fa-solid fa-arrow-right flex items-center mt-2 gap-2"></i>
+                    </p>
+                </div>
+
+                <div class="bg-white shadow-lg p-5 rounded-[16px] space-y-2">
+                    <div>
+                        <img class="rounded-[16px]"
+                            src="https://ik.imagekit.io/zpcyxfciu/Food%20Store/em-soup-img.png?updatedAt=1773471002081"
+                            alt="Food">
+                    </div>
+                    <h1 class="font-[Poppins] text-lg font-medium leading-[22px] text-[#323f4b] mt-4">Non-Veg Starters
+                    </h1>
+                    <p class="text-[#FBCE07] hover:text-[#2956B3] hover:underline">View All
+                        <i class="fa-solid fa-arrow-right flex items-center mt-2 gap-2"></i>
+                    </p>
+                </div>
+
+                <div class="bg-white shadow-lg p-5 rounded-[16px] space-y-2">
+                    <div>
+                        <img class="rounded-[16px]"
+                            src="https://ik.imagekit.io/zpcyxfciu/Food%20Store/em-grilled-seafood-img.png?updatedAt=1773470848316"
+                            alt="Food">
+                    </div>
+                    <h1 class="font-[Poppins] text-lg font-medium leading-[22px] text-[#323f4b] mt-4">Non-Veg Starters
+                    </h1>
+                    <p class="text-[#FBCE07] hover:text-[#2956B3] hover:underline">View All
+                        <i class="fa-solid fa-arrow-right flex items-center mt-2 gap-2"></i>
+                    </p>
+                </div>
+
+                <div class="bg-white shadow-lg p-5 rounded-[16px] space-y-2">
+                    <div>
+                        <img class="rounded-[16px]"
+                            src="https://ik.imagekit.io/zpcyxfciu/Food%20Store/em-hyderabadi-biryani-img.png?updatedAt=1773470865440"
+                            alt="Food">
+                    </div>
+                    <h1 class="font-[Poppins] text-lg font-medium leading-[22px] text-[#323f4b] mt-4">Non-Veg Starters
+                    </h1>
+                    <p class="text-[#FBCE07] hover:text-[#2956B3] hover:underline">View All
+                        <i class="fa-solid fa-arrow-right flex items-center mt-2 gap-2"></i>
+                    </p>
+                </div>
+
+                <div class="bg-white shadow-lg p-5 rounded-[16px] space-y-2">
+                    <div>
+                        <img class="rounded-[16px]"
+                            src="https://ik.imagekit.io/zpcyxfciu/Food%20Store/em-mushroom-noodles-img.png?updatedAt=1773470909709"
+                            alt="Food">
+                    </div>
+                    <h1 class="font-[Poppins] text-lg font-medium leading-[22px] text-[#323f4b] mt-4">Non-Veg Starters
+                    </h1>
+                    <p class="text-[#FBCE07] hover:text-[#2956B3] hover:underline">View All
+                        <i class="fa-solid fa-arrow-right flex items-center mt-2 gap-2"></i>
+                    </p>
+                </div>
+
+                <div class="bg-white shadow-lg p-5 rounded-[16px] space-y-2">
+                    <div>
+                        <img class="rounded-[16px]"
+                            src="https://ik.imagekit.io/zpcyxfciu/Food%20Store/em-gluten-img.png?updatedAt=1773470944401"
+                            alt="Food">
+                    </div>
+                    <h1 class="font-[Poppins] text-lg font-medium leading-[22px] text-[#323f4b] mt-4">Non-Veg Starters
+                    </h1>
+                    <p class="text-[#FBCE07] hover:text-[#2956B3] hover:underline">View All
+                        <i class="fa-solid fa-arrow-right flex items-center mt-2 gap-2"></i>
+                    </p>
+                </div>
+
+                <div class="bg-white shadow-lg p-5 rounded-[16px] space-y-2">
+                    <div>
+                        <img class="rounded-[16px]"
+                            src="https://ik.imagekit.io/zpcyxfciu/Food%20Store/em-coffee-bourbon-img.png?updatedAt=1773470980834"
+                            alt="Food">
+                    </div>
+                    <h1 class="font-[Poppins] text-lg font-medium leading-[22px] text-[#323f4b] mt-4">Non-Veg Starters
+                    </h1>
+                    <p class="text-[#FBCE07] hover:text-[#2956B3] hover:underline">View All
+                        <i class="fa-solid fa-arrow-right flex items-center mt-2 gap-2"></i>
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Explore Menu End -->
+
+    <!-- Fresh Healthy -->
+
+    <section class="py-10">
+        <div class="2xl:container mx-auto bg-[#F9FBFE] py-10">
+
+            <div class="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-3">
+                <div class="flex justify-center col-span-1">
+                    <img src="https://ik.imagekit.io/zpcyxfciu/Food%20Store/healthy-food-plate-img.png?updatedAt=1773471051492"
+                        alt="Healthy Food">
+                </div>
+                <div class="flex flex-col items-start justify-center gap-3 col-span-2">
+                    <!-- flex items -->
+                    <h1 class="font-[Poppins] font-bold text-[28px] leading-[34px] text-[#183B56]">Fresh, Healthy,
+                        Organic, Delicious Fruits</h1>
+                    <p class="font-[Poppins] text-lg font-normal text-[#5a7184]">Say no to harmful chemicals and go
+                        fully organic with our range of fresh fruits and veggies. Pamper your body and your senses with
+                        the true and unadulterated gifts from mother nature. with the true and unadulterated gifts from
+                        mother nature.</p>
+                    <button class="bg-[#C6A900] cursor-pointer text-white rounded-lg px-6 py-3 ">Watch Video</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fresh Healthy End -->
+
+    <!-- Delivery and Payment -->
+
+    <section class="py-10">
+        <div class="2xl:container mx-auto">
+
+            <div class="w-[80%] grid grid-cols-3 mx-auto gap-3">
+
+                <!-- content div start -->
+
+                <div class="flex flex-col items-start justify-center gap-3 col-span-2">
+                    <h1 class="font-[Poppins] font-bold text-[28px] leading-[24px] text-[#183B56]">Delivery and Payment
+                    </h1>
+                    <p class="font-[Poppins] text-lg font-normal text-[#5a7184]">Enjoy hassle-free payment with the
+                        plenitude of payment options available for you. Get live tracking and lecate your food on a live
+                        map. Ifs quite a sight to see your food arrive to your door. Plus, you get a 5% discoust on
+                        every arder every time you pay online.</p>
+                    <button class="bg-[#C6A900] cursor-pointer text-white rounded-lg px-6 py-3">Order Now</button>
+                </div>
+
+                <!-- content div end -->
+
+                <!-- Image div start -->
+
+                <div class="flex justify-center col-span-1">
+                    <img class="h-[250px]"
+                        src="https://ik.imagekit.io/zpcyxfciu/Food%20Store/delivery-payment-section-img.png?updatedAt=1773471091318"
+                        alt="Payment">
+                </div>
+
+                <!-- Image div end -->
+
+                <!-- payment image div 2 Start-->
+
+                <div class="flex gap-8 flex-wrap">
+                    <img class="h-[50px]"
+                        src="https://ik.imagekit.io/zpcyxfciu/Food%20Store/visa-card-img.png?updatedAt=1773471121789"
+                        alt="Visa">
+                    <img class="h-[50px]"
+                        src="https://ik.imagekit.io/zpcyxfciu/Food%20Store/paypal-card-img.png?updatedAt=1773471228576"
+                        alt="PayPal">
+                    <img class="h-[50px]"
+                        src="https://ik.imagekit.io/zpcyxfciu/Food%20Store/master-card-img.png?updatedAt=1773471145782"
+                        alt="MasterCard">
+                    <img class="h-[50px]"
+                        src="https://ik.imagekit.io/zpcyxfciu/Food%20Store/american-express-img.png?updatedAt=1773471289851"
+                        alt="American Express">
+                </div>
+
+                <!-- payment image div 2 End-->
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Delivery and Payment End -->
+
+    <!-- gift section start -->
+
+    <section class="py-10 bg-[#FCE9A2]">
+        <div class="2xl:container mx-auto">
+
+            <div class="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-4 col-span-4 p-16">
+
+                <!-- content div start -->
+
+                <div class="space-y-3 flex flex-col justify-center items-start col-span-3">
+                    <h1 class="font-[Poppins] font-bold text-[28px] leading-[24px] text-[#183B56]">Thank you for being a
+                        valuable customer to us.</h1>
+                    <p class="font-[Poppins] text-lg font-normal text-[#5a7184]">We have a surprise gift for you</p>
+                    <button class="bg-[#C6A900] cursor-pointer text-white rounded-lg px-6 py-3">Redeem Gift</button>
+                </div>
+
+                <!-- content div end -->
+
+                <!-- gift image -->
+
+                <div class="flex justify-center col-span-1">
+                    <img class="h-[350px]"
+                        src="https://ik.imagekit.io/zpcyxfciu/Food%20Store/thanking-customers-section-img.png?updatedAt=1773471306048"
+                        alt="gift box">
+                </div>
+
+                <!-- gift image -->
+
+            
+            </div>
+        
+        </div>
+    </section>
+
+    <!-- gift section end -->
+
+    <!-- follow section start-->
+
+    <section>
+        <div class="2xl:container mx-auto">
+
+            <div class="w-[80%] mx-auto grid grid-cols-1">
+
+                <div class="py-20 flex flex-col items-center gap-8">
+
+                    <h1 class="font-[Poppins] font-bold text-[28px] leading-[24px] text-[#183B56]">Follow Us</h1>
+
+                    <!-- social media icons start -->
+
+                    <div class="flex gap-5">
+
+                        <div class="bg-[#FAF7E8] p-5 rounded-full cursor-pointer">
+                            <i class="fa-brands fa-instagram text-4xl"></i>
+                        </div>
+
+                        <div class="bg-[#FAF7E8] p-5 rounded-full cursor-pointer">
+                            <i class="fa-brands fa-linkedin text-4xl"></i>
+                        </div>
+
+                        <div class="bg-[#FAF7E8] p-5 rounded-full cursor-pointer">
+                            <i class="fa-brands fa-github text-4xl"></i>
+                        </div>
+
+                        <div class="bg-[#FAF7E8] p-5 rounded-full cursor-pointer">
+                            <i class="fa-brands fa-youtube text-4xl"></i>
+                        </div>
+
+                    </div>
+
+                    <!-- social media icons end -->
+
+                </div>
+            
+            </div>
+        
+        </div>
+        
+    </section>
+    
+    <!-- follow section end-->
+
+    <!-- footer section start -->
+
+    <footer class="2xl:container mx-auto bg-[#0D2436]">
+        
+        <div class="w-[80%] mx-auto grid grid-cols-1">
+            
+            <div class="py-12 flex flex-col items-center gap-2">
+                <img class="w-[80px]" src="https://ik.imagekit.io/zpcyxfciu/Food%20Store/food-munch-img.png?updatedAt=1773470465271" alt="logo">
+                <p class="text-center text-white">orderfood@foodmunch.com</p>
+                <p class="text-center text-white">123 Ayur Vigyan Nagar, New Delhi, India.</p>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- footer section end -->
+    
+</body>
+
+</html>

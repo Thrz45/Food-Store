@@ -130,3 +130,32 @@ You're about to initialize a Firebase project in this directory:
 [info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
 [info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
 [info] 
+[debug] [2026-04-07T10:04:11.053Z] >>> [apiv2][query] GET https://api.github.com/repos/Thrz45/food-store/actions/secrets/public-key type=owner
+[debug] [2026-04-07T10:04:11.343Z] <<< [apiv2][status] GET https://api.github.com/repos/Thrz45/food-store/actions/secrets/public-key 401
+[debug] [2026-04-07T10:04:11.343Z] <<< [apiv2][body] GET https://api.github.com/repos/Thrz45/food-store/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+[debug] [2026-04-07T10:04:15.571Z] >>> [apiv2][query] GET https://api.github.com/repos/Thrz45/food-munch/actions/secrets/public-key type=owner
+[debug] [2026-04-07T10:04:15.833Z] <<< [apiv2][status] GET https://api.github.com/repos/Thrz45/food-munch/actions/secrets/public-key 401
+[debug] [2026-04-07T10:04:15.834Z] <<< [apiv2][body] GET https://api.github.com/repos/Thrz45/food-munch/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+[debug] [2026-04-07T10:09:00.741Z] >>> [apiv2][query] GET https://api.github.com/repos/Thrz45/food-store/actions/secrets/public-key type=owner
+[debug] [2026-04-07T10:09:01.028Z] <<< [apiv2][status] GET https://api.github.com/repos/Thrz45/food-store/actions/secrets/public-key 401
+[debug] [2026-04-07T10:09:01.028Z] <<< [apiv2][body] GET https://api.github.com/repos/Thrz45/food-store/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+[debug] [2026-04-07T10:09:03.962Z] >>> [apiv2][query] GET https://api.github.com/repos/cls/actions/secrets/public-key type=owner
+[debug] [2026-04-07T10:09:04.249Z] <<< [apiv2][status] GET https://api.github.com/repos/cls/actions/secrets/public-key 404
+[debug] [2026-04-07T10:09:04.249Z] <<< [apiv2][body] GET https://api.github.com/repos/cls/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2026-04-07T10:09:08.425Z] >>> [apiv2][query] GET https://api.github.com/repos/exit/actions/secrets/public-key type=owner
+[debug] [2026-04-07T10:09:08.713Z] <<< [apiv2][status] GET https://api.github.com/repos/exit/actions/secrets/public-key 404
+[debug] [2026-04-07T10:09:08.713Z] <<< [apiv2][body] GET https://api.github.com/repos/exit/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
